@@ -229,7 +229,7 @@ if __name__ == "__main__":
 
     print("数据目录地址：", data_dir)
 
-    num_epochs = 15
+    num_epochs = 20
     full_dataset = ImageFolder(root=data_dir, transform=transform)
     total_size = len(full_dataset)
     train_size = int(0.7 * total_size)
